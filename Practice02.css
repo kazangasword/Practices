@@ -1,0 +1,43 @@
+/*@import "Practice01.css";*/
+blockquote{
+  font-style: italic;
+  font-size: 130%;
+  float: right;
+  font-family: Georgia;
+  margin: 30px 30px 20px 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 60%;
+  box-sizing: border-box;
+}
+
+p{
+  margin-top: 20px;
+  font-style: Verdana;
+}
+
+h1{
+  font-family: sans-serif;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  width: 400px;
+}
+
+.para{
+  float:left;
+  width: 70%;
+  margin: 10px;
+
+}
+
+.timeline{
+  float:right;
+  width: 20%;
+  margin: 1%;
+}
+
+body{
+  width: 90%;
+  margin: 1%;
+  background-image: radial-gradient(#1166ff,#aaff12);
+}

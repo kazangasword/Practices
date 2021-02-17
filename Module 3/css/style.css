@@ -1,0 +1,46 @@
+body{
+  background-color: #0066;
+}
+.navbar-brand a:hover{
+  text-decoration: none;
+  color: pink;
+}
+h2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.container-fluid{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #7070ff;
+}
+li{
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: yellow;
+}
+li:hover{
+  background-color: pink;
+}
+li a:hover{
+  text-decoration: none;
+}
+#nav-list{
+  margin: 0;
+  padding: 0;
+}
+h4{
+  padding-top: 20px;
+}
+
+
+@media (min-width:992px){
+  #collapsable-nav{
+    visibility: hidden;
+    position: absolute;
+  }
+}
